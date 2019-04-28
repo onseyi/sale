@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sales Dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+	<script>	
+		$(function () {
+		  $('[data-toggle="tooltip"]').tooltip()
+		})	
+	</script>
+  </head>
+
+  <body>
+	<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">Overview</a>
+		  <a href="#">Reports</a>
+		  <a href="#">Revenue</a>
+		  <a href="#">Distribution</a>
+		  <a href="#">Settings</a>
+		  <a href="#">Logout</a>
+	</div>	
+	
+	
+<div id="main">
+	
+		<div class="cover">
+		<nav class="navbar navbar-expand-md navbar-dark absolute-top opaque-navbar">
+			<div class="col-4">
+				<span onclick="openNav()"><i class="fa fa-bars text-white" style="font-size: 26px"></i></span>
+			</div>
+			<div class="col-4 text-center">
+				<a class="navbar-brand mx-auto" href="#">Dashboard</a>
+			</div>
+			<div class="col-4">
+				<i class="fa fa-bell-o text-white float-right"></i>
+				<i class="fa fa-circle" style="font-size: 8px; position: absolute;right: 14px;"></i>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			<div class="row pt5">
+				
+					<div class="col-3">	
+						<i class="fa fa-circle cul"></i> <small>Actual</small>
+					</div>
+					<div class="col-4">	
+						<i class="fa fa-circle cub"></i> <small>Prediction</small>
+					</div>
+					<div class="col-5">	
+						<span class="float-right cv">April  <i class="fa fa-angle-down"></i></span>
+					</div>
+		
+			</div>		
+		</div>	
+
+
+		<div class="container-fluid">
+			<div class="row pt-3">		
+
+				<div class="container">
+
+				  <div class="progress progress-bar-vertical ml-2"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="progress-bar bg-ln" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="height: 35%;">
+					  <small class="cc pb">Jan</small>
+					</div>
+				  </div>
+				  
+					<div class="progress progress-bar-vertical">
+					<div class="progress-bar bg-ln" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 50%;">
+					  <span class="cc pb">Feb</span>
+					</div>
+				  </div>
+
+				  <div class="progress progress-bar-vertical">
+					<div class="progress-bar bg-ln active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 30%;">
+					  <span class="cc pb">Mar</span>
+					</div>
+				  </div>
+
+				  <div class="progress progress-bar-vertical">
+					<div class="progress-bar bg-ln active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 58%;">
+					  <span class="pb">Apr</span>
+					</div>
+				  </div>
+
+				  <div class="progress progress-bar-vertical">
+					<div class="progress-bar bg-b active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 65%;">
+					  <span class="cc pb">May</span>
+					</div>
+				  </div>
+
+				  <div class="progress progress-bar-vertical">
+					<div class="progress-bar bg-b active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 55%;">
+					  <span class="cc pb">Jun</span>
+					</div>
+				  </div>
+
+				  <div class="progress progress-bar-vertical">
+					<div class="progress-bar bg-b active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 60%;">
+					  <span class="cc pb">Jul</span>
+					</div>
+				  </div>
+
+				</div>
+			
+			
+
+			
+			</div>		
+		</div>		
+		
+
+
+	
+		</div>
+		
+
+		<div class="container mv">
+		  <!-- Marketing Icons Section -->
+		  <div class="row m-3">
+			<div class="col-sm-12 round">
+			<div class="p-2">
+				<h4>Total Revenue</h4>
+				<p class="cun">February 2019</p>
+				<div>
+					<b class="cug">N1,500000</b>
+					<i class="fa fa-line-chart col1 float-right"></i>
+				</div>
+			</div>
+			</div>
+		  </div>
+
+
+		<div class="row m-3">
+			<div class="col-sm-12 mt-4">
+			
+				<div class="row">
+					<div class="col-6">
+						<img src="img/mk1.png" />
+					</div>
+					<div class="col-6">
+						<div class="float-right pt-2">
+							<h6 style="margin:0; padding:0;">N150000</h6>
+							<small class="cun">30 min ago</small>
+						</div>
+					</div>
+				</div>
+				
+				<div class="bline"></div>
+			
+				<div class="row mt2">
+					<div class="col-6">
+						<img src="img/mk.png" />
+					</div>
+					<div class="col-6">
+						<div class="float-right pt-2">
+							<h6 style="margin:0; padding:0;">N150000</h6>
+							<small class="cun">30 min ago</small>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		</div>
+</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	
+<script>	
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	} 
+</script>	
+
+  </body>
+
+</html>

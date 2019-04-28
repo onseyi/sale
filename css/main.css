@@ -1,0 +1,172 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+	background-color: #FCFCFC;
+}
+
+.absolute-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.0);
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #004E81; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 8px 8px 20px 20px;
+	text-decoration: none;
+	font-size: 21px;
+	color: #f9f9f9;
+	display: block;
+	transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 0;
+}
+
+.cover {
+    color: #FFFFFF;
+    background-color: #2DABD1;
+    background-repeat: repeat-y;
+    background: -webkit-gradient(linear, left top, right bottom, from(#2DABD1), to(#3A66C9));
+    background: -webkit-linear-gradient(left, #3A66C9, #2DABD1);
+    background: -moz-linear-gradient(left, #3A66C9, #2DABD1);
+    background: -ms-linear-gradient(left, #3A66C9, #2DABD1);
+    background: -o-linear-gradient(left, #3A66C9, #2DABD1);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	height: 550px;
+}
+
+.pt5 {padding-top: 5rem !important;}
+.ptc {padding: 10rem 0;}
+
+.cc{color: #8BC5F8;}
+.cul{color: #46FFEC;}
+.cub{color: #004E81;}
+.cun{color: #B5B5B5;}
+.cug{color: #219115;}
+.col1{color: #3778CB;}
+
+.bline{
+	border-bottom: 1px solid #f3f3f3;
+    margin: 13px 0;	
+}
+
+.mv{
+	position: relative;
+	top: -105px;
+}
+
+.icn{
+  background-color: #FFD2D2;
+  border-radius: 50%;
+  padding: 20px;
+  color: #C82727;
+}
+.icn1{
+  background-color: #D2FFE3;
+  border-radius: 50%;
+  padding: 20px;
+  color:#008A34;
+}
+
+.bg-ln {
+    background-color: #46FFEC !important;
+}
+.bg-b {
+    background-color: #004E81 !important;
+}
+.cv{
+	background-color: #fff3;
+	padding: 0 18px;
+	border-radius: 3px;
+}
+
+.round {
+    border: 1px solid #fbfbfb;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 5px 5px 11px #f2f2f2;
+    width: 420px;
+	background-color: #fff;
+}
+
+.progress-bar-vertical {
+  width: 6px;
+  min-height: 270px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 12%;
+  float: left;
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+
+.progress {
+	background-color: #fff0 !important;
+}
+
+.progress-bar {
+    border-radius: .25rem !important;
+}
+.pb{
+	position: absolute;
+	bottom: 234px;
+}
+
+@media screen and ( max-width: 414px) {
+.pb{
+	position: absolute;
+	bottom: 305px;
+}
+}
+@media screen and ( max-width: 375px) {
+.pb{
+	position: absolute;
+	bottom: 235px;
+}
+}
+
+
+
